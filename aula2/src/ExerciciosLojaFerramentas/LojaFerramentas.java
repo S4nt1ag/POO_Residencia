@@ -42,7 +42,8 @@ public class LojaFerramentas
 		System.out.println();
 		System.out.println("===============================");
 		System.out.println("Total a pagar:  R$ "+ totalPagar);
-
+		
+		sc.close();
 	}
 
 }

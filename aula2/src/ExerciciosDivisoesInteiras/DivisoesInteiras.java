@@ -16,7 +16,7 @@ public class DivisoesInteiras {
 
 		System.out.println("A metade inteira  é: "+ metadeInteira);
 		System.out.println("O resto da divisão  é: "+ resto);
-		
+		sc.close();
 	}
 
 }

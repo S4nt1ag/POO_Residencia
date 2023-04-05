@@ -33,7 +33,7 @@ public class EquacoesAritimeticas
 		System.out.printf("A divisão entre %.0f e %.0f é %.2f", a,b,div);
 		
 		
-
+		sc.close();
 	}
 	
 

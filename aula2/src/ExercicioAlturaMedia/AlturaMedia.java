@@ -19,7 +19,7 @@ public class AlturaMedia {
 		mediaAltura = (altura1+altura2+altura3)/3;
 		
 		System.out.printf("A média das alturas é: %.2f metros", mediaAltura);
-		
+		scan.close();
 	}
 
 }
