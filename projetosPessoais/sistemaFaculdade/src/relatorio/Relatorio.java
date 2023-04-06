@@ -7,20 +7,21 @@ public class Relatorio {
 	public static void calculaGastos(Empregado... empregado) {
 		double gastosTotais = 0;
 
-		System.out.println("=".repeat(77));
-		System.out.println("                               Contra cheque");
-		System.out.println("=".repeat(77));
+		System.out.println("-".repeat(80));
+		System.out.println("                                  Contra cheque");
+		System.out.println("-".repeat(80));
 
 		for (Empregado empreg : empregado) {
 			System.out.printf(
-					"Nome:			%s%nsalario base:		R$ %.2f%nadicional bonus/h:	R$ %.2f%nTotal recebido:		R$ %.2f%n",
+					"Nome:\t\t\t\t\t\t\t%-23s|%nsalario base:\t\t\t\t\t\tR$ %-20.2f|%n"
+							+ "adicional bonus/h:\t\t\t\t\tR$ %-20.2f|%nTotal recebido:\t\t\t\t\t\tR$ %-20.2f|%n",
 					empreg.getNome(), empreg.getSalario(), empreg.getGastos() - empreg.getSalario(),
 					empreg.getGastos());
-			System.out.println("=============================================================================");
+			System.out.println("*".repeat(80));
 			gastosTotais += empreg.getGastos();
 		}
 
-		System.out.println("Gastos totais: " + gastosTotais);
+		System.out.println("Total gasto: R$ " + gastosTotais);
 	}
 
 }

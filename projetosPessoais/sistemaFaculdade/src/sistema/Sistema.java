@@ -12,9 +12,9 @@ public class Sistema {
 		Empregado professor = new Professor("Gabriel", 1300.0, 100);
 		Empregado empregado2 = new Empregado("Cristina", 1500.0);
 		Empregado professor2 = new Professor("Monica", 1250.0, 200);
-		System.out.println("=============================================================================");
-		System.out.println("|                         Faculdade Federal SG                              |");
-		System.out.println("=============================================================================");
+		System.out.println("-".repeat(80));
+		System.out.println("|                           Faculdade Federal SG                               |");
+		System.out.println("-".repeat(80));
 		System.out.println(empregado.toString());
 		System.out.println(professor.toString());
 		System.out.println(empregado2.toString());
