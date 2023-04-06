@@ -1,5 +1,6 @@
 package contas;
 
+import java.util.Random;
 public class Conta {
 
 	public int numero;
@@ -31,11 +32,8 @@ public class Conta {
 	}
 	
 	private int gerarNumero() {
-		int numero;
-		for( numero =0; numero < 4; numero ++) {
-		
-		}
-		return numero;
+		Random rand = new Random();
+		return rand.nextInt();
 	}
 	
 	public double getSaldo() {
