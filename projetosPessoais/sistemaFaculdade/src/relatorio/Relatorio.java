@@ -4,7 +4,7 @@ import funcionarios.Empregado;
 
 public class Relatorio {
 
-	public static void calculaGastos(Empregado... empregado) {
+	public void calculaGastos(Empregado... empregado) {
 		double gastosTotais = 0;
 
 		System.out.println("-".repeat(80));
