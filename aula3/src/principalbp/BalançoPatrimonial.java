@@ -30,7 +30,7 @@ public class BalançoPatrimonial
 		Mes tri = new Mes(jan, fev, mar);
 		System.out.println("O total de gastos dos 3 primeiros meses foi de: R$"+ tri.somarGastosTrimestre());
 		Mes sep = new Mes(jan, fev, mar, abr, mai, jun, jul);
-		System.out.println("O total de gastos dos 3 primeiros meses foi de: R$"+ sep.somarGastosSeptestre());
+		System.out.println("O total de gastos dos 7 primeiros meses foi de: R$"+ sep.somarGastosSeptestre());
 		
 	}
 	

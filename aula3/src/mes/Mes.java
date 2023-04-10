@@ -29,9 +29,9 @@ public class Mes
 		this.gastosJaneiro = gastosJaneiro;
 		this.gastosFevereiro = gastosFevereiro;
 		this.gastosMarco = gastosMarco;
-		this.gastosAbril = gastosJaneiro;
-		this.gastosMaio = gastosFevereiro;
-		this.gastosJunho = gastosMarco;
+		this.gastosAbril = gastosAbril;
+		this.gastosMaio = gastosMaio;
+		this.gastosJunho = gastosJunho;
 		this.gastosJulho = gastosJulho;
 	};
 	public double somarGastosTrimestre() 
