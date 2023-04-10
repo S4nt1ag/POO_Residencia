@@ -1,6 +1,6 @@
 package conta;
 
-public class Pessoa implements PessoaNec {
+public abstract class Pessoa implements PessoaNec {
 
 	private String nome;
 	private String cpf;

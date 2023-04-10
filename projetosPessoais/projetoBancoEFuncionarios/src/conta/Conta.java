@@ -1,6 +1,6 @@
 package conta;
 
-public class Conta extends Pessoa {
+public  class Conta extends Pessoa {
 	private double saldo;
 	private double deposito;
 	private double saque;
