@@ -1,7 +1,8 @@
 package principal;
 
-import sistema.*;
-import utilitarios.*;
+import sistema.Entrar;
+import sistema.Painel;
+import utilitarios.Clear;
 
 public class Principal {
 
