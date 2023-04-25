@@ -29,7 +29,8 @@ public class Program {
 				String name = fields[0];
 				Integer votes = Integer.parseInt(fields[1]);
 				
-				if (map.get(name)== null) {
+				
+				if (map.get(name) == null) {
 					
 					map.put(name, votes);
 				} else {
